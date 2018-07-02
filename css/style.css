@@ -114,12 +114,14 @@ a {
   box-sizing: border-box;
   margin-bottom: 20px;
   flex-basis: 30%;
+  border: 1px solid orange;
+  border-radius: 4px;
 }
 
 @media (min-width: 900px) {
   .call-outs-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
   }
 }
@@ -265,7 +267,7 @@ a {
   color: white;
 }
 
-.second h4,.second p{
+.second h4,.second p,.second a{
   padding-left: 10px;
 }
 .sticky {
