@@ -11,7 +11,8 @@ input {
 body {
   background-color: #BBB;
   font-family: Helvetica, sans-serif;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
+  line-height: 1.6;
 }
 
 h2, h3 {
@@ -20,12 +21,6 @@ h2, h3 {
 /* first example */
 * {
 	box-sizing: border-box;
-}
-body {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
 }
 ul {
   margin: 0;
@@ -214,4 +209,64 @@ a {
   .equal-height-container {
     flex-direction: row;
   }
+}
+
+.footer{
+  display: flex;
+  /* overflow:hidden; */
+  margin-top: 10px;
+  /* background-color: #f4f4f4; */
+  /* justify-content: flex-end; */
+  /* -webkit-box-shadow: 0 -8px 6px -6px black;
+	   -moz-box-shadow: 0 -8px 6px -6px black;
+	        box-shadow: 0 -8px 6px -6px black; */
+          justify-content: center;
+          align-items: center;
+          /* padding-top: .5em;
+            padding-bottom: .5em; */
+            border: 1px solid #a2a2a2;
+            background-color: #f4f4f4;
+            -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  min-width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* .fa-facebook {
+  background: #3B5998;
+  color: white;
+} */
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
