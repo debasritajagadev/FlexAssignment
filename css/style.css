@@ -197,6 +197,9 @@ text-align: center;
   border: 1px solid orange;
   border-radius: 4px;
 }
+.fixed-size img:hover{
+  opacity: 0.7;
+}
 .fixed-size a{
 text-decoration: none;
 }
@@ -245,10 +248,12 @@ text-decoration: none;
 .second-b {
   background-color: #cdf1c3;
   flex: 1;
+  margin-top:2px;
 }
 .second-c {
   background-color: #eec3f1;
   flex: 1;
+  margin-top:2px;
 }
 
 @media (max-width: 900px)  {
