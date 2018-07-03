@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Flexbox1</title>
+    <title>Travel Channel</title>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,12 +24,12 @@
   </head>
   <body>
     <div class="top-container">
-      <h1>MY WEB</h1>
-      <p>Welcome to my site.</p>
+      <h1><img src="../image/logo.png" alt="logo"/></h1>
+      <h3>Let's explore...</h3>
     </div>
     <!-- first example -->
     <header class="header" id="header">
-  		<h1 class="logo"><a href="#">My Web</a></h1>
+  		<h1 class="logo"><a href="#"><img src="../image/logo.png" alt="logo"/></a></h1>
         <ul class="main-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -87,7 +87,7 @@
     <div class="call-outs-container">
       <div class="call-out">
         <div class="hlm">
-          <img src="" alt="">
+          <img src="../image/logo.png" alt="place"/>
         </div>
         <div class="hld">
           <h3>Feature 3</h3>
@@ -98,7 +98,7 @@
 
       <div class="call-out">
         <div class="hlm">
-          <img src="" alt="">
+          <img src="../image/logo.png" alt="place"/>
         </div>
         <div class="hld">
           <h3>Feature 3</h3>
@@ -109,7 +109,7 @@
 
       <div class="call-out">
         <div class="hlm">
-          <img src="" alt="">
+          <img src="../image/logo.png" alt="place"/>
         </div>
         <div class="hld">
           <h3>Feature 3</h3>
@@ -122,10 +122,10 @@
     <!-- third example -->
     <div class="fixed-size-container">
       <div class="fixed-size"><a href="#"><img src="../image/1.jpg" alt="1"></a><a href="#" id="text1">oooh look! text!</a></div>
-      <div class="fixed-size"><a href="#"><img src="../image/2.jpg" alt="2"></a><a href="#" id="text1">oooh look! text!</a></div>
-      <div class="fixed-size"><a href="#"><img src="../image/3.jpg" alt="3"></a><a href="#" id="text1">oooh look! text!</a></div>
-      <div class="fixed-size"><a href="#"><img src="../image/4.jpg" alt="4"></a><a href="#" id="text1">oooh look! text!</a></div>
-      <div class="fixed-size"><a href="#"><img src="../image/5.jpg" alt="5"></a><a href="#" id="text1">oooh look! text!</a></div>
+      <div class="fixed-size"><a href="#"><img src="../image/2.jpg" alt="2"></a><a href="#" id="text2">oooh look! text!</a></div>
+      <div class="fixed-size"><a href="#"><img src="../image/3.jpg" alt="3"></a><a href="#" id="text3">oooh look! text!</a></div>
+      <div class="fixed-size"><a href="#"><img src="../image/4.jpg" alt="4"></a><a href="#" id="text4">oooh look! text!</a></div>
+      <div class="fixed-size"><a href="#"><img src="../image/5.jpg" alt="5"></a><a href="#" id="text5">oooh look! text!</a></div>
     </div>
 
 
@@ -156,27 +156,30 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quasi similique amet voluptatem molestiae nostrum ab nesciunt blanditiis repellendus quos, sequi sunt</p>
 		      <a href="/"> More... </a>
         </div>
-      </div>
-    </div>
-    <footer class="footer">
-      <a href="#" class="fa fa-twitter"></a>
-      <a href="#" class="fa fa-google"></a>
-      <a href="#" class="fa fa-linkedin"></a>
-      <a href="#" class="fa fa-youtube"></a>
-    </footer>
-  </div>
-    <script type="text/javascript">
-      window.onscroll = function() {myFunction()};
-      var header = document.getElementById("header");
-      var sticky = header.offsetTop;
-
-      function myFunction() {
-        if (window.pageYOffset > sticky) {
-          header.classList.add("sticky");
-        } else {
-          header.classList.remove("sticky");
-        }
-      }
-    </script>
-  </body>
+     </div>
+   </div>
+   <footer class="footer">
+     <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-google"></a>
+     <a href="#" class="fa fa-linkedin"></a>
+     <a href="#" class="fa fa-youtube"></a>
+   </footer>
+   <dl id="copyright">
+          <dt title="Copyright">&copy;</dt>
+          <dd>2008 Example Corporation</dd>
+   </dl>
+ </div>
+   <script type="text/javascript">
+     window.onscroll = function() {myFunction()};
+     var header = document.getElementById("header");
+     var sticky = header.offsetTop;
+     function myFunction() {
+       if (window.pageYOffset > sticky) {
+         header.classList.add("sticky");
+       } else {
+         header.classList.remove("sticky");
+       }
+     }
+   </script>
+ </body>
 </html>
