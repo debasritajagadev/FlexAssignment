@@ -83,7 +83,7 @@ a {
 	border-radius: 5px;
   z-index:100;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .sticky{
     position: absolute!important;
   }
