@@ -83,12 +83,12 @@ a {
 	border-radius: 5px;
   z-index:100;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .sticky{
     position: absolute!important;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 601px) {
 	.header,
 	.main-nav {
 		display: flex;
