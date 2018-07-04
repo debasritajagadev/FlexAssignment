@@ -103,7 +103,7 @@ a {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 601px) {
 	.navelement {
 		flex-direction: row;
 		justify-content: space-between;
