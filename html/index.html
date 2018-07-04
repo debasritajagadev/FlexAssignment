@@ -23,12 +23,13 @@
 
   </head>
   <body>
-    <section class="top-container">
+  <div>
+    <header class="top-container">
       <h1><img src="../image/logo.png" alt="logo"/></h1>
       <h3>Let's explore...</h3>
-    </section>
+    </header>
     <!-- first example -->
-    <header class="header" id="header">
+    <nav class="navelement" id="navelement">
   		<h1 class="logo"><a href="#"><img src="../image/logo.png" alt="logo"/></a></h1>
         <ul class="main-nav">
             <li><a href="#">Home</a></li>
@@ -36,7 +37,7 @@
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-	</header>
+	</nav>
   <section class="content">
     <!-- fourth example -->
     <!-- <section class="banner">
@@ -163,20 +164,23 @@
         </section>
      </section>
    </section>
-   <footer class="footer">
+   <section class="icons">
      <a href="#" class="fa fa-twitter"></a>
      <a href="#" class="fa fa-google"></a>
      <a href="#" class="fa fa-linkedin"></a>
      <a href="#" class="fa fa-youtube"></a>
-   </footer>
-   <dl id="copyright">
-          <dt title="Copyright">&copy;</dt>
-          <dd>2018 Travel Channel Corporation</dd>
-   </dl>
+   </section>
  </section>
+ <footer>
+ <dl id="copyright">
+        <dt title="Copyright">&copy;</dt>
+        <dd>2018 Travel Channel Corporation</dd>
+ </dl>
+</footer>
+</div>
    <script type="text/javascript">
      window.onscroll = function() {myFunction()};
-     var header = document.getElementById("header");
+     var header = document.getElementById("navelement");
      var sticky = header.offsetTop;
      function myFunction() {
        if (window.pageYOffset > sticky) {
