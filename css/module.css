@@ -89,9 +89,25 @@
       flex: 1;
       display: flex;
       flex-direction: column;
-    }
+		}
+		.second-a {
+  background-color: #c0dbe2;
+  flex: 1;
+}
 
-  
+.second-b {
+  background-color: #cdf1c3;
+  flex: 1;
+  margin-top:2px;
+}
+.second-c {
+  background-color: #eec3f1;
+  flex: 1;
+  margin-top:2px;
+}
+
+
+
     @media (max-width: 900px)  {
       .equal-height-container {
         margin: 40px auto 40px auto;
@@ -168,7 +184,7 @@
     .sticky + .content {
       padding-top: 102px;
     }
- 
+
     #copyright{
     display:flex;
       /* margin-top: 0!important; */

@@ -57,7 +57,22 @@
     .fixed-size a{
     text-decoration: none;
     }
-	
+		.second-a {
+	  background-color: #c0dbe2;
+	  flex: 1;
+	}
+
+	.second-b {
+	  background-color: #cdf1c3;
+	  flex: 1;
+	  margin-top:2px;
+	}
+	.second-c {
+	  background-color: #eec3f1;
+	  flex: 1;
+	  margin-top:2px;
+	}
+
     .second h4,.second p,.second a{
       padding-left: 10px;
     }
